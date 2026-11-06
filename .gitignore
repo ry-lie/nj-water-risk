@@ -1,0 +1,6 @@
+data/
+.venv/
+*.qgz~
+.DS_Store
+__pycache__/
+outputs/*.gpkg
