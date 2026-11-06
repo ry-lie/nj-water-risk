@@ -4,7 +4,7 @@ Which New Jersey public water systems have the most known contaminated sites
 inside their service areas, and does the answer change once area size is
 taken into account?
 
-**[▶ Open the interactive map](https://YOUR-GITHUB-USERNAME.github.io/nj-water-risk/)**
+**[▶ Open the interactive map](https://ry-lie.github.io/nj-water-risk/)**
 
 ![Known contaminated sites per public water service area](outputs/maps/contaminated_sites_by_service_area.png)
 
