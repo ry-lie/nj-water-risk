@@ -1,0 +1,97 @@
+monitoring_location_id,monitoring_location_name,county_name,well_constructed_depth,latest_date,recent_depth_ft,past_median_ft,change_ft,n_past_years,percentile,status,SYS_NAME,in_public_water_area
+USGS-385607074555201,090150-- West Cape May 1 Obs,Cape May County,293.0,2026-11-05,22.4,19.43,2.97,8,100,Much below normal,West Cape May WD,True
+USGS-385709074512801,090302-- Coast Guard 800 Obs,Cape May County,903.0,2026-11-05,39.88,37.81,2.07,9,100,Much below normal,,False
+USGS-385804074574201,090049-- Higbee Beach 3 Obs,Cape May County,250.0,2026-11-05,22.4,18.67,3.73,10,100,Much below normal,,False
+USGS-390002074541002,090304-- Airport Rio Grande Obs,Cape May County,510.0,2026-11-05,51.87,51.67,0.2,10,60,Normal,,False
+USGS-390012074472001,090337-- N Wildwood 800 Obs,Cape May County,965.0,2026-11-05,48.93,46.15,2.78,9,100,Much below normal,Wildwood City WD,True
+USGS-390156074533401,090333-- Pump Pond N Obs,Cape May County,43.0,2026-11-05,12.96,12.71,0.26,10,60,Normal,NJ American Water - Cape May Courthouse,True
+USGS-390211074505502,090081-- Cape May 23 Obs,Cape May County,26.0,2026-11-05,9.77,9.48,0.29,9,56,Normal,NJ American Water - Cape May Courthouse,True
+USGS-390608074483801,090099-- Cape May Co Pk 8 Obs,Cape May County,230.0,2026-11-05,6.89,7.61,-0.72,10,40,Normal,NJ American Water - Cape May Courthouse,True
+USGS-391145074520401,090510-- Belleplain MW44,Cape May County,11.0,2026-11-05,3.24,3.37,-0.13,10,30,Normal,,False
+USGS-392512074521206,110137-- Ragovin 2100 Obs,Cumberland County,2093.0,2026-10-01,134.41,134.4,0.02,9,67,Normal,,False
+USGS-392731075092401,110042-- Vocational School 2 Obs,Cumberland County,47.0,2026-11-05,7.82,6.35,1.48,10,80,Below normal,,False
+USGS-392732075092401,110043-- Vocational School 1 Obs,Cumberland County,138.0,2026-11-05,8.49,6.51,1.98,10,80,Below normal,,False
+USGS-392733075092401,110044-- Vocational School 3 Obs,Cumberland County,376.0,2026-11-05,175.36,174.63,0.73,10,90,Much below normal,,False
+USGS-392920074570001,110237-- Natural Area 1 Obs,Cumberland County,81.0,2026-10-13,8.91,9.88,-0.97,9,22,Above normal,,False
+USGS-393232074263901,010703-- Faa Pomona Obs,Atlantic County,575.0,2026-11-05,100.82,94.37,6.44,10,90,Much below normal,NJ American Water - Atlantic County,True
+USGS-393232074263903,010776-- FAA Shallow Obs,Atlantic County,93.0,2026-11-05,20.26,18.57,1.69,10,100,Much below normal,NJ American Water - Atlantic County,True
+USGS-394106074362501,050570-- Mount Obs,Burlington County,25.0,2026-11-05,20.76,15.22,5.54,10,100,Much below normal,,False
+USGS-394215074561701,070476-- New Brooklyn Park 1 Obs,Camden County,1505.0,2026-11-05,147.46,147.62,-0.16,10,40,Normal,Winslow Twp DMU,True
+USGS-394215074561702,070477-- New Brooklyn Park 2 Obs,Camden County,849.0,2026-11-05,165.14,166.31,-1.16,8,12,Above normal,Winslow Twp DMU,True
+USGS-394215074561703,070478-- New Brooklyn Park 3 Obs,Camden County,530.0,2026-11-05,146.36,137.76,8.6,9,100,Much below normal,Winslow Twp DMU,True
+USGS-394236075272101,330342-- Penns Grove 24,Salem County,51.0,2026-11-05,9.37,12.99,-3.61,10,0,Above normal,NJ American Water - Penns Grove,True
+USGS-394336074161201,291433-- Stafford MW5 Obs,Ocean County,415.0,2026-10-14,23.82,20.04,3.78,9,89,Below normal,Stafford Twp Water - Beach Haven West,True
+USGS-394354075025901,151033-- Washington Twp 1 Obs,Gloucester County,54.0,2026-11-05,16.63,16.5,0.14,10,60,Normal,Washington Twp MUA,True
+USGS-394422074430903,050409-- Atsion 3 Obs,Burlington County,17.0,2026-10-19,7.86,7.77,0.09,9,56,Normal,,False
+USGS-394742074142002,290514-- Garden St Pky 2 Obs,Ocean County,316.0,2026-10-15,9.9,9.44,0.46,9,89,Below normal,,False
+USGS-394800074524601,051387-- Evesham 4 Obs,Burlington County,355.0,2026-10-13,135.15,126.77,8.37,8,100,Much below normal,Evesham MUA,True
+USGS-394829074053503,290019-- Island Beach 3 Obs,Ocean County,2756.0,2026-11-05,15.43,14.42,1.01,10,90,Much below normal,,False
+USGS-394904074253601,051391-- Coyle 2 Obs (OW 96),Burlington County,1441.0,2026-10-18,228.83,224.97,3.86,9,100,Much below normal,,False
+USGS-394957075053001,150671-- Deptford Deep Obs,Gloucester County,670.0,2026-10-06,75.66,77.8,-2.14,9,0,Above normal,,False
+USGS-395028074104401,290585-- DOE-Forked River Obs,Ocean County,422.0,2026-11-05,3.16,2.63,0.53,10,100,Much below normal,Lacey Twp MUA,True
+USGS-395034074112101,291419-- MW61,Ocean County,20.0,2026-10-15,9.27,9.64,-0.37,9,22,Above normal,Lacey Twp MUA,True
+USGS-395150074284201,050689-- Lebanon Sf 23-D Obs,Burlington County,33.0,2026-11-05,29.35,23.97,5.38,10,100,Much below normal,,False
+USGS-395309074352101,051389-- New Lisbon 1 Obs,Burlington County,920.0,2026-11-05,150.32,148.18,2.15,9,78,Below normal,,False
+USGS-395309074352102,051390-- New Lisbon 2 Obs,Burlington County,635.0,2026-11-05,98.68,96.86,1.82,10,90,Much below normal,,False
+USGS-395524074502501,050258-- Medford 1 Obs,Burlington County,410.0,2026-11-05,114.96,115.21,-0.25,9,22,Above normal,Medford Twp MUA,True
+USGS-395524074502502,050259-- Medford 2 Obs,Burlington County,263.0,2026-11-05,52.49,55.06,-2.57,9,0,Above normal,Medford Twp MUA,True
+USGS-395525074502505,050261-- Medford 5 Obs,Burlington County,750.0,2026-11-05,109.62,110.62,-1.01,10,30,Normal,Medford Twp MUA,True
+USGS-395525074502601,050262-- Medford 4 Obs,Burlington County,1145.0,2026-11-05,109.0,110.08,-1.08,10,30,Normal,Medford Twp MUA,True
+USGS-395609074124001,290534-- Toms River 2 Obs,Ocean County,1146.0,2026-10-13,28.55,25.82,2.73,9,100,Much below normal,Veolia Water NJ Toms River,True
+USGS-395928074502701,051476-- Rancocas St Pk MW3,Burlington County,14.0,2026-11-05,5.35,6.17,-0.83,10,20,Above normal,NJ American Water - Mt Holly,True
+USGS-395930074142101,290085-- Toms River 84 Obs,Ocean County,1480.0,2026-10-13,95.9,93.51,2.4,9,100,Much below normal,Veolia Water NJ Toms River,True
+USGS-400148074352001,051250-- McGuire 08-MW-52,Burlington County,55.0,2026-09-30,10.22,9.94,0.28,9,56,Normal,JBMDL - McGuire Area,True
+USGS-400148074352101,051251-- McGuire 08-MW-102,Burlington County,20.0,2026-09-30,10.8,9.74,1.06,9,100,Much below normal,JBMDL - McGuire Area,True
+USGS-400210074031001,290503-- Mantoloking 6 OBS,Ocean County,906.0,2026-10-12,86.38,83.69,2.69,8,100,Much below normal,NJ American Water - Coastal North,True
+USGS-400210074031002,290504-- Mantoloking 17,Ocean County,1369.0,2026-10-12,49.0,48.19,0.81,9,67,Normal,NJ American Water - Coastal North,True
+USGS-400232074213201,291060-- Lnas-Ec Obs,Ocean County,38.0,2026-11-05,27.48,27.7,-0.22,10,20,Above normal,,False
+USGS-400242074422301,050440-- Rhodia 1 Obs,Burlington County,615.0,2026-10-12,103.26,100.11,3.15,9,100,Much below normal,NJ American Water - Mt Holly,True
+USGS-400416074270101,290138-- Colliers Mills 1 Obs,Ocean County,427.0,2026-11-05,76.57,75.21,1.35,10,70,Normal,,False
+USGS-400416074270103,290140-- Colliers Mills 3 Obs,Ocean County,267.0,2026-11-05,27.36,26.87,0.49,10,60,Normal,,False
+USGS-400711074020201,250486-- DOE-Sea Girt Obs,Monmouth County,614.0,2026-10-12,79.69,76.56,3.13,9,67,Normal,Sea Girt WD,True
+USGS-400832074082101,250429-- Allaire State Park C Obs,Monmouth County,633.0,2026-10-15,147.87,147.49,0.38,7,57,Normal,NJ American Water - Coastal North,True
+USGS-401105074120201,250635-- Howell Twp 1 Obs,Monmouth County,1360.5,2026-11-05,140.07,140.9,-0.82,10,30,Normal,NJ American Water - Coastal North,True
+USGS-401105074120202,250636-- Howell Twp 2 Obs,Monmouth County,100.2,2026-11-05,40.12,40.07,0.04,10,50,Normal,NJ American Water - Coastal North,True
+USGS-401105074120204,250638-- Howell Twp 4 Obs,Monmouth County,499.0,2026-11-05,112.07,108.99,3.08,8,88,Below normal,NJ American Water - Coastal North,True
+USGS-401105074120205,250639-- Howell Twp 5 Obs,Monmouth County,907.2,2026-11-05,139.11,140.26,-1.16,10,20,Above normal,NJ American Water - Coastal North,True
+USGS-401542074053001,250353-- Fort Monmouth 1-Nco Obs,Monmouth County,327.0,2026-10-15,133.61,128.57,5.05,9,100,Much below normal,NJ American Water - Coastal North,True
+USGS-401552074501801,210028-- Civil Defense Obs,Mercer County,300.0,2026-10-18,15.88,16.5,-0.61,9,22,Above normal,Trenton Water Works,True
+USGS-401753074483501,210289-- Bristol-Myers 100 Obs,Mercer County,300.0,2026-10-12,16.29,16.43,-0.14,9,44,Normal,Trenton Water Works,True
+USGS-401804074432601,210364-- Cranston Farms 15 Obs,Mercer County,200.0,2026-11-05,29.78,32.15,-2.37,10,10,Above normal,Lawrenceville School,True
+USGS-401834074515501,210366-- Wash Crossing Pk 14 Obs,Mercer County,225.0,2026-10-15,67.99,65.18,2.81,9,67,Normal,,False
+USGS-401906074151401,250250-- Village 215 Obs,Monmouth County,215.0,2026-10-13,45.48,42.38,3.11,9,78,Below normal,Gordon's Corner WC,True
+USGS-401934074485901,210704-- Scotch Rd Obs,Mercer County,150.0,2026-10-18,82.17,84.16,-1.99,9,33,Normal,,False
+USGS-402109074301301,230291-- Forsgate 1 Obs,Middlesex County,203.0,2026-10-13,39.28,37.63,1.65,9,89,Below normal,South Brunswick Twp Water District,True
+USGS-402109074301302,230292-- Forsgate 2 Obs,Middlesex County,104.0,2026-10-13,35.15,32.47,2.68,9,89,Below normal,South Brunswick Twp Water District,True
+USGS-402143074185201,230104-- Morrell 1 Obs,Middlesex County,11.0,2026-11-05,2.8,6.0,-3.19,10,20,Above normal,,False
+USGS-402151074525301,190251-- Corsalo Rd 1 Obs,Hunterdon County,299.0,2026-11-05,3.26,5.2,-1.94,10,30,Normal,,False
+USGS-402208074145201,250272-- Marlboro 1 Obs,Monmouth County,680.0,2026-10-13,142.88,150.15,-7.27,9,0,Above normal,Marlboro Twp Water Utility Division,True
+USGS-402350073583901,250771-- Sandy Hook 2 Obs,Monmouth County,278.0,2026-10-12,7.63,7.91,-0.29,9,0,Above normal,NJ American Water - Coastal North,True
+USGS-402512074414301,350139-- MW109,Somerset County,40.0,2026-09-30,18.32,25.39,-7.08,8,12,Above normal,NJ American Water - Raritan,True
+USGS-402553074271701,230070-- Fischer Obs,Middlesex County,21.0,2026-11-05,16.46,16.65,-0.19,10,40,Normal,East Brunswick WU,True
+USGS-402644074563601,190002-- Bird Obs,Hunterdon County,21.0,2026-10-15,11.48,12.98,-1.5,9,22,Above normal,Delaware Twp MUA,True
+USGS-403200074420601,350138-- MW110,Somerset County,36.0,2026-10-22,8.02,8.81,-0.78,8,25,Above normal,NJ American Water - Raritan,True
+USGS-403300074202901,231491-- MW134A,Middlesex County,34.2,2026-10-12,-0.26,-0.15,-0.11,9,22,Above normal,Middlesex WC,True
+USGS-403455074514801,190276-- Environmental Ctr 1 Obs,Hunterdon County,175.0,2026-11-05,9.78,10.08,-0.3,10,20,Above normal,,False
+USGS-403517074452501,190270-- Readington 11 Obs,Hunterdon County,101.0,2026-11-05,26.57,22.99,3.58,10,70,Normal,,False
+USGS-403719075091801,410387-- MW82,Warren County,12.0,2026-11-05,7.76,7.53,0.23,10,70,Normal,,False
+USGS-404014074585401,190495-- NJWSA TW-B,Hunterdon County,380.0,2026-11-05,24.05,27.62,-3.57,10,20,Above normal,,False
+USGS-404106074171901,390119-- Union County Park Obs,Union County,290.0,2026-11-05,6.14,6.33,-0.2,10,40,Normal,NJ American Water - Raritan,True
+USGS-404455074203202,130096-- East Orange Shallow Obs,Essex County,84.0,2026-11-05,41.53,41.73,-0.2,10,50,Normal,NJ American Water - Short Hills,True
+USGS-404639074230001,270012-- Briarwood School Obs,Morris County,110.0,2026-11-05,41.16,38.35,2.81,10,100,Much below normal,Florham Park WD,True
+USGS-404934074400501,271190-- Black River 10 Obs,Morris County,200.0,2026-11-05,14.76,11.59,3.17,10,70,Normal,,False
+USGS-405027074232301,270020-- Troy Meadows 1 Obs,Morris County,89.0,2026-11-05,8.32,10.36,-2.03,10,10,Above normal,Parsippany-Troy Hills WD,True
+USGS-405123074375701,271191-- Roxbury 1 Obs,Morris County,154.0,2026-11-05,39.19,33.32,5.88,10,80,Below normal,Randolph Twp Public Works Dept,True
+USGS-405414074354201,271192-- Morris Maint Yd 22 Obs,Morris County,100.0,2026-11-05,21.45,22.54,-1.09,10,30,Normal,Wharton WD,True
+USGS-405531074361901,270027-- Berkshire Valley 9 Obs,Morris County,98.0,2026-11-05,12.37,12.82,-0.46,10,30,Normal,,False
+USGS-405535074073701,030617--29 Lori Lane Obs,Bergen County,505.0,2026-11-05,24.37,27.87,-3.5,10,0,Above normal,Fair Lawn WD,True
+USGS-405613074430901,370359-- PW-1 Obs,Sussex County,100.0,2026-11-05,13.83,14.67,-0.84,10,30,Normal,,False
+USGS-405808074583001,410349-- Blairstown 1 Obs,Warren County,294.0,2026-11-05,5.4,5.35,0.05,10,60,Normal,,False
+USGS-410005074473801,370203-- Whittingham 19 Obs,Sussex County,500.0,2026-11-05,24.68,27.76,-3.09,10,30,Normal,,False
+USGS-410155074060201,030289-- Saddle River 17 Obs,Bergen County,175.0,2026-11-05,2.21,2.63,-0.42,10,30,Normal,Saddle River WU,True
+USGS-410207074270001,270028-- Green Pond 5 Obs,Morris County,120.0,2026-11-05,4.26,5.05,-0.79,10,20,Above normal,,False
+USGS-410431074395801,370204-- Sparta 6 Obs,Sussex County,143.0,2026-11-05,51.46,44.14,7.31,10,100,Much below normal,,False
+USGS-410449074483301,370205-- Swartswood Park 5 Obs,Sussex County,148.0,2026-11-05,25.68,25.67,0.02,10,50,Normal,,False
+USGS-410804074424401,370206-- Fairgrounds 7 Obs,Sussex County,80.0,2026-11-05,33.03,33.17,-0.14,10,40,Normal,,False
+USGS-410914074540401,370202-- Taylor Obs,Sussex County,95.0,2026-11-05,21.84,21.36,0.48,10,70,Normal,,False
+USGS-410928074522801,370207-- Walpack Twp 4 Obs,Sussex County,55.0,2026-11-05,27.92,27.04,0.87,10,80,Below normal,,False
