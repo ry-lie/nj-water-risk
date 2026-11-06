@@ -14,6 +14,7 @@ Run from the project root, after part1b_analysis.py works:
 from pathlib import Path
 
 import folium
+import geopandas as gpd
 
 from part1b_analysis import clean_areas, count_sites, load_layers
 
@@ -56,6 +57,46 @@ def add_layer(m, gdf, field, bins, name, show):
     ).add_to(m)
 
 
+WELL_COLORS = {
+    "Much below normal": "#7b3294",
+    "Below normal": "#c2a5cf",
+    "Normal": "#a6dba0",
+    "Above normal": "#008837",
+}
+
+
+def add_wells(m):
+    """Add USGS groundwater wells from Part 2, if that step has been run."""
+    path = ROOT / "outputs" / "groundwater_wells.geojson"
+    if not path.exists():
+        print("No groundwater_wells.geojson yet -> skipping wells layer")
+        return
+    wells = gpd.read_file(path)
+    layer = folium.FeatureGroup(name="Groundwater wells (USGS)", show=True)
+    for _, w in wells.iterrows():
+        area = w["SYS_NAME"] if w["in_public_water_area"] else "None (private wells)"
+        popup = (
+            f"<b>{w.get('monitoring_location_name', w['monitoring_location_id'])}</b><br>"
+            f"Status: <b>{w['status']}</b> ({w['percentile']}th percentile)<br>"
+            f"Last 30-day depth: {w['recent_depth_ft']} ft<br>"
+            f"Usual depth (median): {w['past_median_ft']} ft<br>"
+            f"Public water system: {area}<br>"
+            f"Latest reading: {w['latest_date']}"
+        )
+        folium.CircleMarker(
+            location=[w.geometry.y, w.geometry.x],
+            radius=6,
+            color="#333333",
+            weight=1,
+            fill=True,
+            fill_color=WELL_COLORS.get(w["status"], "#999999"),
+            fill_opacity=0.9,
+            popup=folium.Popup(popup, max_width=300),
+        ).add_to(layer)
+    layer.add_to(m)
+    print(f"Added {len(wells)} groundwater wells to the map")
+
+
 def add_legend(m):
     rows = "".join(
         f'<div><span style="background:{c};width:14px;height:14px;'
@@ -72,7 +113,15 @@ def add_legend(m):
         'background:white;padding:10px 12px;border-radius:6px;'
         'box-shadow:0 1px 4px rgba(0,0,0,.3);font:13px sans-serif">'
         "<b>Count &nbsp;|&nbsp; Sites per sq mi</b>"
-        f"{rows}<div style='margin-top:6px;color:#666'>{ATTRIBUTION}</div></div>"
+        f"{rows}"
+        "<div style='margin-top:8px'><b>Groundwater level (wells)</b></div>"
+        + "".join(
+            f'<div><span style="background:{c};width:12px;height:12px;'
+            f'border-radius:50%;display:inline-block;margin-right:6px;'
+            f'border:1px solid #333"></span>{s}</div>'
+            for s, c in WELL_COLORS.items()
+        )
+        + f"<div style='margin-top:6px;color:#666'>{ATTRIBUTION}; USGS</div></div>"
     )
     m.get_root().html.add_child(folium.Element(html))
 
@@ -82,9 +131,9 @@ def add_title(m):
         '<div style="position:fixed;top:12px;left:60px;z-index:9999;'
         'background:white;padding:8px 14px;border-radius:6px;'
         'box-shadow:0 1px 4px rgba(0,0,0,.3);font:15px sans-serif">'
-        "<b>Known Contaminated Sites per Public Water Service Area, NJ</b><br>"
+        "<b>NJ Water Risk: Contaminated Sites and Groundwater Levels</b><br>"
         '<span style="font-size:12px;color:#555">'
-        "Hover an area for details. Switch layers at top right.</span></div>"
+        "Hover an area or click a well for details. Switch layers at top right.</span></div>"
     )
     m.get_root().html.add_child(folium.Element(html))
 
@@ -112,6 +161,7 @@ def main():
     add_layer(m, web, "n_sites", COUNT_BINS, "Number of sites", show=True)
     add_layer(m, web, "density_per_sqmi", DENSITY_BINS,
               "Sites per square mile", show=False)
+    add_wells(m)
     folium.LayerControl(collapsed=False).add_to(m)
     add_title(m)
     add_legend(m)
